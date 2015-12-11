@@ -1,0 +1,52 @@
+angular
+
+ng-model
+
+ng-controller
+
+scope
+
+scope.$apply();
+
+ng-repeat
+
+ng-submit
+
+ng-click
+
+json
+
+dependancy
+
+filter
+
+orderBy : 오름차순 정렬 : (정렬할 이름) 
+		  내림차순 정렬 : -(정렬할 이름)
+		  sortField
+		  reverse
+
+ng-src : <img src="{{country.flagURL}}" width="100"> 이렇게 사용하면 동작은 하지만 404 에러 발생
+따라서 ng-src를 사용하자.
+
+filter -
+	currency
+
+	number
+
+ng-route
+	routeProvider - when(path, route)
+	otherwise(params)
+
+factory
+
+caching
+
+encoding url
+
+restful
+
+custom_angular 
+	'A' - <span ng-sparkline></span>
+	'E' - <ng-sparkline></ng-sparkline>
+	'C' - <span class="ng-sparkline"></span>
+	'M' - <!-- directive: ng-sparkline -->
