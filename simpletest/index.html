@@ -1,0 +1,36 @@
+<html ng-app="simpletest">
+  <head>
+    <meta charset="utf-8">
+    <title>simple test</title>
+   
+        <script src="make/facebook.api.js"></script>
+
+
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.8/angular.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.8/angular-route.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.8/angular-cookies.js"></script>
+    
+    
+    <script src="app.js"></script>
+
+    <!--main-->
+    
+
+
+    <!--login-->
+    <script src="app/login/login.module.js"></script>
+    <script src="app/login/login.controller.js"></script>
+    <script src="app/login/login.service.js"></script>
+    <link rel="stylesheet" href="css/login.css" />
+
+
+    <!--config-->
+    <script src="app/config/config.module.js"></script>
+    <script src="app/config/config.httpInterceptors.js"></script>
+    <script src="app/config/config.auth.js"></script>
+
+  </head>
+  <body>
+    <div ng-view></div>
+  </body>
+</html>
